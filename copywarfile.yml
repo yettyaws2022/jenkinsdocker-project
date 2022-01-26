@@ -1,0 +1,8 @@
+---
+- hosts: all
+  become: true
+  tasks:
+    - name: copy jar/war onto tomcat servers
+      copy:
+        src: /op/playbooks/wabapp/target/webapp.war
+        dest: /usr/share/tomcat/webapps/
