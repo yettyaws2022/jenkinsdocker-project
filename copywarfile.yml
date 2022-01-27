@@ -1,8 +1,9 @@
----
-- hosts: all
-  become: true
-  tasks:
-    - name: copy jar/war onto tomcat servers
-      copy:
-        src: /op/playbooks/wabapp/target/webapp.war
-        dest: /usr/share/tomcat/webapps/
+---# Install http server and Deploy the Html File
+-  hosts: servers
+   remote_user: root
+   become: yes
+   tasks: 
+      - name: copy jar/war onto tomcat servers
+        copy:
+          src: /root/jenkins-docker-ansible-project/target/java-tomcat-maven-example.war
+          dest: /usr/share/tomcat/webapps/
