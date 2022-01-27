@@ -3,7 +3,7 @@
    remote_user: root
    become: yes
    tasks: 
-      - name: copy jar/war onto tomcat servers
-        copy:
-          src: /root/jenkins-docker-ansible-project/target/java-tomcat-maven-example.war
-          dest: /usr/share/tomcat/webapps/
+   - name: copy jar/war onto tomcat servers
+     copy:
+       src: /root/jenkins-docker-ansible-project/target/java-tomcat-maven-example.war
+       dest: /usr/share/tomcat/webapps/
