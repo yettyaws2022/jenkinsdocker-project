@@ -1,5 +1,5 @@
 # Pull base image
-From tomcat:8-jre8
+From consol/tomcat-7.0
 
 # Maintainer
 MAINTAINER "rajusw804@gmail.com"
