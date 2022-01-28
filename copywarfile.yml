@@ -3,5 +3,5 @@
    tasks:
    - name: copy jar/war onto tomcat servers
      copy:
-       src: java-tomcat-maven-example.war
+       src: target/java-tomcat-maven-example.war
        dest: /usr/share/tomcat/webapps/
