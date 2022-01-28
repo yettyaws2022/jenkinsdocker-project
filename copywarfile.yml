@@ -3,5 +3,5 @@
    tasks:
    - name: copy jar/war onto tomcat servers
      copy:
-       src: /home/jenkins/jenkins-docker-ansible-project/target/java-tomcat-maven-example.war
+       src: /opt/jenkins-docker-ansible-project/target/java-tomcat-maven-example.war
        dest: /usr/share/tomcat/webapps/
