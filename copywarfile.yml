@@ -1,5 +1,6 @@
 ---
 -  hosts: master
+   remote_user: root
    tasks:
    - name: copy jar/war onto tomcat servers
      copy:
