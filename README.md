@@ -1,5 +1,14 @@
 ![image](https://user-images.githubusercontent.com/97225776/159006964-5c6d8ecb-2621-4fb5-9b03-3d5fc59ffef6.png)
 
+Plugin:
+maven integration plugin
+
+--------------------------
+Prerequisite sw:
+Maven
+java
+docker
+git
 --------------------------
 
 # tomcatTomcat 7.0.57, 8080, "admin/admin" 
