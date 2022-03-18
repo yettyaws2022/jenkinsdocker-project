@@ -12,6 +12,7 @@ docker build -t project:1.0.0 .
 
 docker run -d --name project -p 8091:8080 project:1.0.0
 
+...
 
 ---------------------------
 
