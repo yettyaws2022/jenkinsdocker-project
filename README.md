@@ -19,6 +19,7 @@ sudo amazon-linux-extras install epel
 sudo yum install epel-release telnet bind-utils nano git -y
 
 sudo yum -y install wget net-tools python3 daemonize java-1.8.0-openjdk
+
 --------------------------
 
 # install jenkins
