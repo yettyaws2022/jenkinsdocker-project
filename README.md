@@ -60,7 +60,10 @@ docker push rajusw804/jenkins:$version
 
 
 # install nexus
-yum install -y maven
+
+sudo yum -y install wget net-tools python3 daemonize java-1.8.0-openjdk
+
+yum install -y maven git 
 
 mkdir /opt/nexus && cd /opt/nexus
 
