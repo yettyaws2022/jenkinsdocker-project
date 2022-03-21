@@ -9,7 +9,34 @@ Maven
 java
 docker
 git
+
+------------------
+
+sudo yum update -y
+
+sudo amazon-linux-extras install epel
+
+sudo yum install epel-release telnet bind-utils nano git -y
+
+sudo yum -y install wget net-tools python3 daemonize java-1.8.0-openjdk
 --------------------------
+
+# install jenkins
+
+sudo wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat/jenkins.repo
+
+sudo rpm --import https://jenkins-ci.org/redhat/jenkins-ci.org.key
+
+sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+sudo yum -y install jenkins -y
+
+echo "--------Jenkins,Java installed"
+
+sudo systemctl enable jenkins
+
+sudo systemctl start jenkins
+
+-------------------------------------
 
 # tomcatTomcat 7.0.57, 8080, "admin/admin" 
 
