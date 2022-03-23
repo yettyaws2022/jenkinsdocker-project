@@ -6,7 +6,7 @@
 Plugin:
 maven integration plugin
 
---------------------------
+------------------------
 Prerequisite sw:
 Maven
 java
