@@ -1,5 +1,5 @@
 ---
--  hosts: tomcatdev
+-  hosts: tomcatuat
    remote_user: jenkins
    tasks:
    - name: copy jar/war onto tomcat servers
