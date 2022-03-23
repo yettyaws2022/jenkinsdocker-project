@@ -1,5 +1,5 @@
 ---
--  hosts: agents
+-  hosts: tomcatdev
    remote_user: root
    tasks:
    - name: copy jar/war onto tomcat servers
