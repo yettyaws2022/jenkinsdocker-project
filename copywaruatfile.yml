@@ -1,0 +1,8 @@
+---
+-  hosts: tomcatdev
+   remote_user: root
+   tasks:
+   - name: copy jar/war onto tomcat servers
+     copy:
+       src: target/java-tomcat-maven-example.war
+       dest: /usr/share/tomcat/webapps/
