@@ -45,6 +45,9 @@ sudo systemctl start jenkins
 # tomcatTomcat 7.0.57, 8080, "admin/admin" 
 
 -----------------------------------------
+
+clean package
+
 sudo chmod 666 /var/run/docker.sock
 
 docker rm project -f
