@@ -65,3 +65,5 @@ docker commit project rajusw804/jenkins:$version
 docker login --username ${dockerhubusername} --password ${dockerhubpassword}
 
 docker push rajusw804/jenkins:$version
+
+http://13.234.217.75:8080/github-webhook/
