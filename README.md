@@ -44,11 +44,11 @@ sudo systemctl start jenkins
 
 -------------------------------------
 
-# tomcatTomcat 7.0.57, 8080, "admin/admin" 
+# tomcatTomcat 7.0.57, 8088, "admin/admin" 
 
 -----------------------------------------
 
-clean package
+mvn clean package
 
 sudo chmod 666 /var/run/docker.sock
 
