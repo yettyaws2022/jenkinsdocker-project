@@ -2,8 +2,6 @@ Hi Welcome to jenkins:
 
 ![image](https://user-images.githubusercontent.com/97225776/159006964-5c6d8ecb-2621-4fb5-9b03-3d5fc59ffef6.png)
 
-![image](https://user-images.githubusercontent.com/97225776/159699729-ba5ad72d-1b82-4885-b78e-6474efa81ca7.png)
-
 
 Plugin:
 maven integration plugin
