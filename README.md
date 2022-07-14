@@ -64,10 +64,10 @@ docker build -t project:1.0.0 .
 
 docker run -d --name project -p 8091:8080 project:1.0.0
 
-docker commit project rajusw804/jenkinsserver:$version
+docker commit project rajusw804/tomcat:$version
 
 docker login --username ${dockerhubusername} --password ${dockerhubpassword}
 
-docker push rajusw804/jenkinsserver:$version
+docker push rajusw804/tomcat:$version
 
 http://13.234.217.75:8080/github-webhook/
