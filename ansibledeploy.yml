@@ -1,8 +1,0 @@
----
--  hosts: master
-   remote_user: jenkins
-   tasks:
-   - name: copy jar/war onto tomcat servers
-     copy:
-       src: target/java-tomcat-maven-example.war
-       dest: /usr/share/tomcat/webapps/
