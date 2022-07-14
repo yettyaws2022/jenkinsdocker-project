@@ -48,7 +48,7 @@ sudo systemctl start jenkins
 
 -------------------------------------
 
-# tomcatTomcat 7.0.57, 8088, "admin/admin" 
+# tomcatTomcat 7.0.57, 8091, "admin/admin" 
 
 -----------------------------------------
 
