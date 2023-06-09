@@ -34,19 +34,25 @@ sudo yum -y install wget net-tools python3 daemonize java-1.8.0-openjdk
 
 # install jenkins
 
-sudo wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat/jenkins.repo
-
-sudo rpm --import https://jenkins-ci.org/redhat/jenkins-ci.org.key
-
-sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
-sudo yum -y install jenkins -y
-
-echo "--------Jenkins,Java installed"
-
-sudo systemctl enable jenkins
-
-sudo systemctl start jenkins
-
+    1  sudo yum install java-1.8.0
+    
+    2  java -version
+    
+    3  sudo wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat/jenkins.repo
+    
+    4  cat /etc/yum.repos.d/jenkins.repo 
+    
+    5  sudo rpm --import http://pkg.jenkins-ci.org/redhat/jenkins-ci.org.key
+    
+    7  sudo rpm --import https://jenkins-ci.org/redhat/jenkins-ci.org.key
+    
+    8  sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key 
+    
+   10  yum clean packages
+   
+   12  sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+   
+   13  sudo yum install jenkins
 -------------------------------------
 
 # tomcatTomcat 7.0.57, 8091, "admin/admin" 
