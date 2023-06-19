@@ -14,7 +14,7 @@ docker
 git
 
 ------------------
-yum install java-1.8.0-openjdk -y 
+sudo amazon-linux-extras install java-openjdk11
 
 sudo yum update -y
 
@@ -28,13 +28,15 @@ sudo systemctl enable docker
 
 sudo yum install epel-release telnet bind-utils nano git -y
 
-sudo yum -y install wget net-tools python3 daemonize java-1.8.0-openjdk
+sudo yum -y install wget net-tools python3 daemonize sudo amazon-linux-extras install java-openjdk11
+
+
 
 --------------------------
 
 # install jenkins
 
-    1  sudo yum install java-1.8.0
+    1  sudo amazon-linux-extras install java-openjdk11
     
     2  java -version
     
